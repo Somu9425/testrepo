@@ -11,6 +11,6 @@ jobs:
     steps:
       - name: Trigger Jenkins Job
         run: |
-          curl -X POST http://localhost:8080/job/Hello-World-Pipeline/build \
-          --user "jenkins-user:${{ secrets.JENKINS_API_TOKEN }}"
+          curl -X POST http://10.128.0.131:8080/job/Hello-World-Pipeline/build \
+          --user "jenkins-user:${{ secrets.11c57b4913d81721d87b2591864bb22970 }}"
 
