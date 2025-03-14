@@ -1,0 +1,3883 @@
+Script started by ASPIAL\admin_cs at Tue 03/11/2025 17:49:10.59 for Server ASP-OP-UMASTERA
+
+-------------------------------------- General System Data ---------------------------------------
+DNS Host Name: 		ASP-OP-UMASTERAPP
+Domain:			ASPIAL.com
+System Manufacturer:	Microsoft Corporation
+System Type:		x64-based PC
+Total Physical Memory:     8,192 MB
+Number of CPU cores:	4
+
+---------------------------------------- System Boot Time -----------------------------------------
+System Boot Time:          2/14/2025, 10:21:48 PM
+---------------------------------------- System Time Zone -----------------------------------------
+Time Zone:                 (UTC+08:00) Kuala Lumpur, Singapore
+Singapore Standard Time
+--------------------------------------- Detailed CPU Info ----------------------------------------
+Device ID: 		CPU0
+Max Speed:		2594 MHz
+No of Cores:		2
+Logical Processors:	4
+
+----------------------------------------- Online Volumes -----------------------------------------
+C: ( )	Total: 160533835776 bytes		Free: 91296788480 bytes
+D: (Temporary Storage  )	Total: 34357637120 bytes		Free: 34166009856 bytes
+
+------------------------------------------ VSS details -------------------------------------------
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2013 Microsoft Corp.
+
+Volume path: \\?\Volume{0cefb681-0000-0000-0000-100000000000}\
+    Volume name: \\?\Volume{0cefb681-0000-0000-0000-100000000000}\
+Volume path: D:\
+    Volume name: \\?\Volume{0f32d705-0000-0000-0000-100000000000}\
+Volume path: C:\
+    Volume name: \\?\Volume{0cefb681-0000-0000-0000-501f00000000}\
+
+-------------------------------------- Detailed Disks' Info --------------------------------------
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+  Disk 0    Online          150 GB  1024 KB         
+  Disk 1    Online           32 GB      0 B         
+Disk 0 is now the selected disk.
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    Primary            500 MB  1024 KB
+  Partition 2    Primary            149 GB   501 MB
+
+------------------------------------- Network Configuration --------------------------------------
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : ASP-OP-UMASTERAPP
+   Primary Dns Suffix  . . . . . . . : ASPIAL.com
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : ASPIAL.com
+                                       reddog.microsoft.com
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . : reddog.microsoft.com
+   Description . . . . . . . . . . . : Microsoft Hyper-V Network Adapter #2
+   Physical Address. . . . . . . . . : 60-45-BD-20-00-35
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 172.22.1.6(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, February 14, 2025 10:22:06 PM
+   Lease Expires . . . . . . . . . . : Saturday, April 18, 2161 12:17:46 AM
+   Default Gateway . . . . . . . . . : 172.22.1.1
+   DHCP Server . . . . . . . . . . . : 168.63.129.16
+   DNS Servers . . . . . . . . . . . : 172.18.28.58
+                                       172.22.4.6
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+.................... Routing Table ....................
+===========================================================================
+Interface List
+  9...60 45 bd 20 00 35 ......Microsoft Hyper-V Network Adapter #2
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0       172.22.1.1       172.22.1.6     10
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+    168.63.129.16  255.255.255.255       172.22.1.1       172.22.1.6     11
+  169.254.169.254  255.255.255.255       172.22.1.1       172.22.1.6     11
+       172.22.1.0    255.255.255.0         On-link        172.22.1.6    266
+       172.22.1.6  255.255.255.255         On-link        172.22.1.6    266
+     172.22.1.255  255.255.255.255         On-link        172.22.1.6    266
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link        172.22.1.6    266
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link        172.22.1.6    266
+===========================================================================
+Persistent Routes:
+  Network Address          Netmask  Gateway Address  Metric
+          0.0.0.0          0.0.0.0    172.18.28.254  Default 
+===========================================================================
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    331 ::1/128                  On-link
+  1    331 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+--------------------------------------- List of Local Users -----------------------------------
+
+User accounts for \\ASP-OP-UMASTERA
+
+-------------------------------------------------------------------------------
+admin_ck                 Administrator            adminuser                
+azureuser                cit_dev_tw               DefaultAccount           
+Guest                    nexadmin                 
+The command completed successfully.
+
+--------------------------------------- List of Local Groups -----------------------------------
+
+Aliases for \\ASP-OP-UMASTERA
+
+-------------------------------------------------------------------------------
+*Access Control Assistance Operators
+*Administrators
+*Backup Operators
+*Certificate Service DCOM Access
+*Cryptographic Operators
+*Distributed COM Users
+*Event Log Readers
+*Guests
+*Hyper-V Administrators
+*IIS_IUSRS
+*Network Configuration Operators
+*Performance Log Users
+*Performance Monitor Users
+*Power Users
+*Print Operators
+*RDS Endpoint Servers
+*RDS Management Servers
+*RDS Remote Access Servers
+*Remote Desktop Users
+*Remote Management Users
+*Replicator
+*Storage Replica Administrators
+*System Managed Accounts Group
+*Users
+The command completed successfully.
+
+--------------------------------------- List of Local AdministratorGroups Member -----------------------------------
+Alias name     administrators
+Comment        Administrators have complete and unrestricted access to the computer/domain
+
+Members
+
+-------------------------------------------------------------------------------
+admin_ck
+Administrator
+adminuser
+ASPIAL\Aspial_Local_Admin
+ASPIAL\cit_app
+ASPIAL\dbadmin
+ASPIAL\Domain Admins
+azureuser
+cit_dev_tw
+nexadmin
+The command completed successfully.
+
+--------------------------------------- List of Mountpoints-----------------------------------
+Creates, deletes, or lists a volume mount point.
+
+MOUNTVOL [drive:]path VolumeName
+MOUNTVOL [drive:]path /D
+MOUNTVOL [drive:]path /L
+MOUNTVOL [drive:]path /P
+MOUNTVOL /R
+MOUNTVOL /N
+MOUNTVOL /E
+
+    path        Specifies the existing NTFS directory where the mount
+                point will reside.
+    VolumeName  Specifies the volume name that is the target of the mount
+                point.
+    /D          Removes the volume mount point from the specified directory.
+    /L          Lists the mounted volume name for the specified directory.
+    /P          Removes the volume mount point from the specified directory,
+                dismounts the volume, and makes the volume not mountable.
+                You can make the volume mountable again by creating a volume
+                mount point.
+    /R          Removes volume mount point directories and registry settings
+                for volumes that are no longer in the system.
+    /N          Disables automatic mounting of new volumes.
+    /E          Re-enables automatic mounting of new volumes.
+
+Possible values for VolumeName along with current mount points are:
+
+    \\?\Volume{0cefb681-0000-0000-0000-100000000000}\
+        *** NO MOUNT POINTS ***
+
+    \\?\Volume{0f32d705-0000-0000-0000-100000000000}\
+        D:\
+
+    \\?\Volume{0cefb681-0000-0000-0000-501f00000000}\
+        C:\
+
+    \\?\Volume{0f6bd386-4d49-11ea-b7fa-806e6f6e6963}\
+        A:\
+
+--------------------------------------- Bitlocker Encryption-----------------------------------
+[SC] EnumQueryServicesStatus:OpenService FAILED 1060:
+
+The specified service does not exist as an installed service.
+
+--------------------------------------- Cluster Status-----------------------------------
+[SC] EnumQueryServicesStatus:OpenService FAILED 1060:
+
+The specified service does not exist as an installed service.
+
+---------------------------------------- Services' Status ----------------------------------------
+...............................................................
+... Number of Automatically started Running services: 62 
+... Number of Manually started Running services: 38 
+... Number of Disabled services: 11 
+...............................................................
+Caption                                                                     ExitCode    StartMode  StartName                    State    Status  
+Application Host Helper Service                                             0           Auto       LocalSystem                  Running  OK      
+AteraAgent                                                                  0           Auto       LocalSystem                  Running  OK      
+Azure Network Watcher Agent                                                 0           Auto       LocalSystem                  Running  OK      
+Base Filtering Engine                                                       0           Auto       NT AUTHORITY\LocalService    Running  OK      
+Background Tasks Infrastructure Service                                     0           Auto       LocalSystem                  Running  OK      
+Connected Devices Platform Service                                          2147500037  Auto       NT AUTHORITY\LocalService    Stopped  OK      
+CoreMessaging                                                               0           Auto       NT AUTHORITY\LocalService    Running  OK      
+Cryptographic Services                                                      0           Auto       NT Authority\NetworkService  Running  OK      
+DCOM Server Process Launcher                                                0           Auto       LocalSystem                  Running  OK      
+DHCP Client                                                                 0           Auto       NT Authority\LocalService    Running  OK      
+Connected User Experiences and Telemetry                                    0           Auto       LocalSystem                  Running  OK      
+DNS Client                                                                  0           Auto       NT AUTHORITY\NetworkService  Running  OK      
+Diagnostic Policy Service                                                   0           Auto       NT AUTHORITY\LocalService    Running  OK      
+Windows Event Log                                                           0           Auto       NT AUTHORITY\LocalService    Running  OK      
+COM+ Event System                                                           0           Auto       NT AUTHORITY\LocalService    Running  OK      
+Windows Font Cache Service                                                  0           Auto       NT AUTHORITY\LocalService    Running  OK      
+Group Policy Client                                                         0           Auto       LocalSystem                  Running  OK      
+Microsoft Monitoring Agent                                                  0           Auto       LocalSystem                  Running  OK      
+IKE and AuthIP IPsec Keying Modules                                         0           Auto       LocalSystem                  Running  OK      
+InMage Scout Application Service                                            0           Auto       LocalSystem                  Running  OK      
+IP Helper                                                                   0           Auto       LocalSystem                  Running  OK      
+IT Cloud Service                                                            0           Auto       LocalSystem                  Running  OK      
+Jenkins                                                                     0           Auto       LocalSystem                  Running  OK      
+Server                                                                      0           Auto       LocalSystem                  Running  OK      
+Workstation                                                                 0           Auto       NT AUTHORITY\NetworkService  Running  OK      
+Local Session Manager                                                       0           Auto       LocalSystem                  Running  OK      
+Downloaded Maps Manager                                                     0           Auto       NT AUTHORITY\NetworkService  Stopped  OK      
+Windows Firewall                                                            0           Auto       NT Authority\LocalService    Running  OK      
+Distributed Transaction Coordinator                                         0           Auto       NT AUTHORITY\NetworkService  Running  OK      
+Netlogon                                                                    0           Auto       LocalSystem                  Running  OK      
+Net.Pipe Listener Adapter                                                   0           Auto       NT AUTHORITY\LocalService    Running  OK      
+Net.Tcp Listener Adapter                                                    0           Auto       NT AUTHORITY\LocalService    Running  OK      
+Network Location Awareness                                                  0           Auto       NT AUTHORITY\NetworkService  Running  OK      
+Network Store Interface Service                                             0           Auto       NT Authority\LocalService    Running  OK      
+Program Compatibility Assistant Service                                     0           Auto       LocalSystem                  Running  OK      
+Power                                                                       0           Auto       LocalSystem                  Running  OK      
+User Profile Service                                                        0           Auto       LocalSystem                  Running  OK      
+RdAgent                                                                     0           Auto       LocalSystem                  Running  OK      
+Remote Registry                                                             0           Auto       NT AUTHORITY\LocalService    Stopped  OK      
+RPC Endpoint Mapper                                                         0           Auto       NT AUTHORITY\NetworkService  Running  OK      
+Remote Procedure Call (RPC)                                                 0           Auto       NT AUTHORITY\NetworkService  Running  OK      
+Security Accounts Manager                                                   0           Auto       LocalSystem                  Running  OK      
+Task Scheduler                                                              0           Auto       LocalSystem                  Running  OK      
+System Event Notification Service                                           0           Auto       LocalSystem                  Running  OK      
+Shell Hardware Detection                                                    0           Auto       LocalSystem                  Running  OK      
+Splashtopr Remote Service                                                   0           Auto       LocalSystem                  Running  OK      
+Print Spooler                                                               0           Auto       LocalSystem                  Running  OK      
+Software Protection                                                         0           Auto       NT AUTHORITY\NetworkService  Stopped  OK      
+InMage Scout VX Agent - Sentinel/Outpost                                    0           Auto       LocalSystem                  Running  OK      
+System Events Broker                                                        0           Auto       LocalSystem                  Running  OK      
+Themes                                                                      0           Auto       LocalSystem                  Running  OK      
+Tile Data model server                                                      0           Auto       LocalSystem                  Running  OK      
+Distributed Link Tracking Client                                            0           Auto       LocalSystem                  Running  OK      
+User Access Logging Service                                                 0           Auto       LocalSystem                  Running  OK      
+Updater Utility Service Components Controller                               0           Auto       LocalSystem                  Running  OK      
+User Manager                                                                0           Auto       LocalSystem                  Running  OK      
+Windows Time                                                                0           Auto       NT AUTHORITY\LocalService    Running  OK      
+World Wide Web Publishing Service                                           0           Auto       LocalSystem                  Running  OK      
+Windows Biometric Service                                                   0           Auto       LocalSystem                  Stopped  OK      
+Windows Connection Manager                                                  0           Auto       NT Authority\LocalService    Running  OK      
+Windows Defender Service                                                    0           Auto       LocalSystem                  Running  OK      
+Windows Azure Guest Agent                                                   0           Auto       LocalSystem                  Running  OK      
+Windows Management Instrumentation                                          0           Auto       localSystem                  Running  OK      
+Windows Remote Management (WS-Management)                                   0           Auto       NT AUTHORITY\NetworkService  Running  OK      
+Windows Push Notifications System Service                                   0           Auto       LocalSystem                  Running  OK      
+Zabbix Agent 2                                                              0           Auto       LocalSystem                  Running  OK      
+Google Updater Internal Service (GoogleUpdaterInternalService135.0.7023.0)  0           Auto       LocalSystem                  Stopped  OK      
+Google Updater Service (GoogleUpdaterService135.0.7023.0)                   0           Auto       LocalSystem                  Stopped  OK      
+CDPUserSvc_141e6c1c1                                                        0           Auto                                    Running  OK      
+Sync Host_141e6c1c1                                                         1077        Auto                                    Stopped  OK      
+Caption                                                          ExitCode  StartMode  StartName                    State    Status  
+AllJoyn Router Service                                           1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Application Layer Gateway Service                                1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Application Identity                                             1077      Manual     NT Authority\LocalService    Stopped  OK      
+Application Information                                          0         Manual     LocalSystem                  Running  OK      
+Application Management                                           1077      Manual     LocalSystem                  Stopped  OK      
+App Readiness                                                    1077      Manual     LocalSystem                  Stopped  OK      
+AppX Deployment Service (AppXSVC)                                0         Manual     LocalSystem                  Stopped  OK      
+ASP.NET State Service                                            1077      Manual     NT AUTHORITY\NetworkService  Stopped  OK      
+Windows Audio Endpoint Builder                                   1077      Manual     LocalSystem                  Stopped  OK      
+Windows Audio                                                    1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+ActiveX Installer (AxInstSV)                                     1077      Manual     LocalSystem                  Stopped  OK      
+Azure Site Recovery VSS Provider                                 1077      Manual     LocalSystem                  Stopped  OK      
+Background Intelligent Transfer Service                          0         Manual     LocalSystem                  Stopped  OK      
+Bluetooth Support Service                                        1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Certificate Propagation                                          0         Manual     LocalSystem                  Running  OK      
+Client License Service (ClipSVC)                                 1077      Manual     LocalSystem                  Stopped  OK      
+COM+ System Application                                          1077      Manual     LocalSystem                  Stopped  OK      
+DataCollectionPublishingService                                  1077      Manual     LocalSystem                  Stopped  OK      
+Optimize drives                                                  0         Manual     localSystem                  Stopped  OK      
+Device Association Service                                       1077      Manual     LocalSystem                  Stopped  OK      
+Device Install Service                                           1077      Manual     LocalSystem                  Stopped  OK      
+DevQuery Background Discovery Broker                             1077      Manual     LocalSystem                  Stopped  OK      
+Microsoft (R) Diagnostics Hub Standard Collector Service         1077      Manual     LocalSystem                  Stopped  OK      
+Device Management Enrollment Service                             1077      Manual     LocalSystem                  Stopped  OK      
+dmwappushsvc                                                     1077      Manual     LocalSystem                  Stopped  OK      
+Wired AutoConfig                                                 1077      Manual     localSystem                  Stopped  OK      
+Device Setup Manager                                             0         Manual     LocalSystem                  Stopped  OK      
+Data Sharing Service                                             0         Manual     LocalSystem                  Running  OK      
+Extensible Authentication Protocol                               1077      Manual     localSystem                  Stopped  OK      
+Encrypting File System (EFS)                                     1077      Manual     LocalSystem                  Stopped  OK      
+Embedded Mode                                                    1077      Manual     LocalSystem                  Stopped  OK      
+Enterprise App Management Service                                1077      Manual     LocalSystem                  Stopped  OK      
+Function Discovery Provider Host                                 0         Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Function Discovery Resource Publication                          1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Windows Presentation Foundation Font Cache 3.0.0.0               1077      Manual     NT Authority\LocalService    Stopped  OK      
+Windows Camera Frame Server                                      1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+InMage Scout FX Agent                                            1077      Manual     LocalSystem                  Stopped  OK      
+Google Chrome Elevation Service (GoogleChromeElevationService)   1077      Manual     LocalSystem                  Stopped  OK      
+Human Interface Device Service                                   1077      Manual     LocalSystem                  Stopped  OK      
+HV Host Service                                                  1077      Manual     LocalSystem                  Stopped  OK      
+Windows Mobile Hotspot Service                                   1077      Manual     NT Authority\LocalService    Stopped  OK      
+CNG Key Isolation                                                0         Manual     LocalSystem                  Running  OK      
+KDC Proxy Server service (KPS)                                   1077      Manual     NT AUTHORITY\NetworkService  Stopped  OK      
+KtmRm for Distributed Transaction Coordinator                    1077      Manual     NT AUTHORITY\NetworkService  Stopped  OK      
+Geolocation Service                                              0         Manual     LocalSystem                  Running  OK      
+Windows License Manager Service                                  1077      Manual     NT Authority\LocalService    Stopped  OK      
+Link-Layer Topology Discovery Mapper                             1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+TCP/IP NetBIOS Helper                                            0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Microsoft iSCSI Initiator Service                                1077      Manual     LocalSystem                  Stopped  OK      
+Windows Installer                                                1077      Manual     LocalSystem                  Stopped  OK      
+Network Connectivity Assistant                                   0         Manual     LocalSystem                  Stopped  OK      
+Network Connection Broker                                        0         Manual     LocalSystem                  Running  OK      
+Network Connections                                              1077      Manual     LocalSystem                  Stopped  OK      
+Network List Service                                             0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Network Setup Service                                            0         Manual     LocalSystem                  Stopped  OK      
+Net.Tcp Port Sharing Service                                     0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Microsoft Passport Container                                     1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Microsoft Passport                                               1077      Manual     LocalSystem                  Stopped  OK      
+Performance Counter DLL Host                                     1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Phone Service                                                    1077      Manual     NT Authority\LocalService    Stopped  OK      
+Performance Logs & Alerts                                        0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Plug and Play                                                    0         Manual     LocalSystem                  Running  OK      
+IPsec Policy Agent                                               0         Manual     NT Authority\NetworkService  Running  OK      
+Printer Extensions and Notifications                             1077      Manual     LocalSystem                  Stopped  OK      
+Quality Windows Audio Video Experience                           1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Remote Access Auto Connection Manager                            1077      Manual     localSystem                  Stopped  OK      
+Remote Access Connection Manager                                 1077      Manual     localSystem                  Stopped  OK      
+Radio Management Service                                         1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Remote Procedure Call (RPC) Locator                              1077      Manual     NT AUTHORITY\NetworkService  Stopped  OK      
+Resultant Set of Policy Provider                                 1077      Manual     LocalSystem                  Stopped  OK      
+Special Administration Console Helper                            1077      Manual     LocalSystem                  Stopped  OK      
+Smart Card Device Enumeration Service                            0         Manual     LocalSystem                  Running  OK      
+Smart Card Removal Policy                                        1077      Manual     LocalSystem                  Stopped  OK      
+Secondary Logon                                                  0         Manual     LocalSystem                  Running  OK      
+Sensor Data Service                                              1077      Manual     LocalSystem                  Stopped  OK      
+Sensor Service                                                   1077      Manual     LocalSystem                  Stopped  OK      
+Sensor Monitoring Service                                        1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Remote Desktop Configuration                                     0         Manual     localSystem                  Running  OK      
+Internet Connection Sharing (ICS)                                1077      Manual     LocalSystem                  Stopped  OK      
+Microsoft Storage Spaces SMP                                     0         Manual     NT AUTHORITY\NetworkService  Running  OK      
+SNMP Trap                                                        1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+SSDP Discovery                                                   0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Secure Socket Tunneling Protocol Service                         1077      Manual     NT Authority\LocalService    Stopped  OK      
+State Repository Service                                         0         Manual     LocalSystem                  Running  OK      
+Windows Image Acquisition (WIA)                                  1077      Manual     NT Authority\LocalService    Stopped  OK      
+Storage Service                                                  1077      Manual     LocalSystem                  Stopped  OK      
+Spot Verifier                                                    1077      Manual     LocalSystem                  Stopped  OK      
+Microsoft Software Shadow Copy Provider                          0         Manual     LocalSystem                  Running  OK      
+Superfetch                                                       1077      Manual     LocalSystem                  Stopped  OK      
+Touch Keyboard and Handwriting Panel Service                     1077      Manual     LocalSystem                  Stopped  OK      
+Telephony                                                        1077      Manual     NT AUTHORITY\NetworkService  Stopped  OK      
+Remote Desktop Services                                          0         Manual     NT Authority\NetworkService  Running  OK      
+Storage Tiers Management                                         1077      Manual     localSystem                  Stopped  OK      
+Time Broker                                                      0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Windows Modules Installer                                        0         Manual     localSystem                  Running  OK      
+Interactive Services Detection                                   1077      Manual     LocalSystem                  Stopped  OK      
+Remote Desktop Services UserMode Port Redirector                 0         Manual     localSystem                  Running  OK      
+UPnP Device Host                                                 1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Update Orchestrator Service for Windows Update                   0         Manual     LocalSystem                  Running  OK      
+Credential Manager                                               0         Manual     LocalSystem                  Running  OK      
+Virtual Disk                                                     0         Manual     LocalSystem                  Running  OK      
+Hyper-V Guest Service Interface                                  1077      Manual     LocalSystem                  Stopped  OK      
+Hyper-V Heartbeat Service                                        0         Manual     LocalSystem                  Running  OK      
+Hyper-V Data Exchange Service                                    0         Manual     LocalSystem                  Running  OK      
+Hyper-V Remote Desktop Virtualization Service                    1077      Manual     LocalSystem                  Stopped  OK      
+Hyper-V Guest Shutdown Service                                   0         Manual     LocalSystem                  Running  OK      
+Hyper-V Time Synchronization Service                             0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Hyper-V PowerShell Direct Service                                1077      Manual     LocalSystem                  Stopped  OK      
+Hyper-V Volume Shadow Copy Requestor                             1077      Manual     LocalSystem                  Stopped  OK      
+Volume Shadow Copy                                               0         Manual     LocalSystem                  Running  OK      
+W3C Logging Service                                              1077      Manual     LocalSystem                  Stopped  OK      
+WalletService                                                    1077      Manual     LocalSystem                  Stopped  OK      
+Windows Process Activation Service                               0         Manual     LocalSystem                  Running  OK      
+Diagnostic Service Host                                          1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Diagnostic System Host                                           0         Manual     LocalSystem                  Stopped  OK      
+Windows Defender Network Inspection Service                      0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Windows Event Collector                                          1077      Manual     NT AUTHORITY\NetworkService  Stopped  OK      
+Windows Encryption Provider Host Service                         1077      Manual     NT AUTHORITY\LocalService    Stopped  OK      
+Problem Reports and Solutions Control Panel Support              1077      Manual     localSystem                  Stopped  OK      
+Windows Error Reporting Service                                  0         Manual     localSystem                  Stopped  OK      
+Still Image Acquisition Events                                   1077      Manual     LocalSystem                  Stopped  OK      
+WinHTTP Web Proxy Auto-Discovery Service                         0         Manual     NT AUTHORITY\LocalService    Running  OK      
+Windows Insider Service                                          0         Manual     LocalSystem                  Stopped  OK      
+Microsoft Account Sign-in Assistant                              0         Manual     LocalSystem                  Stopped  OK      
+WMI Performance Adapter                                          0         Manual     localSystem                  Stopped  OK      
+Portable Device Enumerator Service                               0         Manual     LocalSystem                  Running  OK      
+Windows Update                                                   0         Manual     LocalSystem                  Running  OK      
+Windows Driver Foundation - User-mode Driver Framework           0         Manual     LocalSystem                  Running  OK      
+Xbox Live Auth Manager                                           1077      Manual     LocalSystem                  Stopped  OK      
+Xbox Live Game Save                                              1077      Manual     LocalSystem                  Stopped  OK      
+Microsoft Monitoring Agent Azure VM Extension Heartbeat Service  0         Manual     LocalSystem                  Running  OK      
+Contact Data_141e6c1c1                                           1077      Manual                                  Stopped  OK      
+User Data Storage_141e6c1c1                                      1077      Manual                                  Stopped  OK      
+User Data Access_141e6c1c1                                       1077      Manual                                  Stopped  OK      
+Windows Push Notifications User Service_141e6c1c1                1077      Manual                                  Stopped  OK      
+Caption                                      ExitCode  StartMode  StartName                    State    Status  
+Microsoft Monitoring Agent Audit Forwarding  1077      Disabled   NT AUTHORITY\NetworkService  Stopped  OK      
+Microsoft App-V Client                       1077      Disabled   LocalSystem                  Stopped  OK      
+Computer Browser                             1077      Disabled   LocalSystem                  Stopped  OK      
+Offline Files                                1077      Disabled   LocalSystem                  Stopped  OK      
+Net.Msmq Listener Adapter                    1077      Disabled   NT AUTHORITY\NetworkService  Stopped  OK      
+Routing and Remote Access                    1077      Disabled   localSystem                  Stopped  OK      
+Smart Card                                   1077      Disabled   NT AUTHORITY\LocalService    Stopped  OK      
+Microsoft Monitoring Agent APM               1077      Disabled   LocalSystem                  Stopped  OK      
+Auto Time Zone Updater                       1077      Disabled   NT AUTHORITY\LocalService    Stopped  OK      
+User Experience Virtualization Service       1077      Disabled   LocalSystem                  Stopped  OK      
+Windows Search                               1077      Disabled   LocalSystem                  Stopped  OK      
+
+--------------------------------------- Short Names Check ----------------------------------------
+ Volume in drive C has no label.
+ Volume Serial Number is AE35-0BE1
+
+ Directory of c:\
+
+11/22/2024  11:14 AM    <DIR>                       $Recycle.Bin
+05/31/2022  05:59 PM    <DIR>          ASPIAL~1     AspialSSO
+11/22/2024  11:14 AM    <DIR>          ASPIAL~2     AspialSSOPortal
+03/05/2022  12:12 AM    <DIR>                       BackUps
+02/03/2018  02:37 AM           389,332              bootmgr
+07/16/2016  09:18 PM                 1              BOOTNXT
+08/30/2024  09:52 AM    <DIR>          CANON_~1     Canon_ConnectPrinter
+11/22/2024  11:25 AM    <DIR>                       COR-FNP
+05/17/2020  02:30 PM    <DIR>                       DevLogs
+02/11/2020  07:39 PM    <JUNCTION>     DOCUME~1     Documents and Settings [C:\Users]
+02/18/2020  03:26 PM    <DIR>                       inetpub
+03/11/2025  10:17 AM    <DIR>          IPAYME~1     ipaymentlogs
+04/10/2023  03:19 PM    <DIR>                       Jobs
+11/02/2023  03:54 PM    <DIR>                       Logs
+05/28/2024  12:55 PM    <DIR>          MOBILE~3.SER Mobile.Renewal.Service
+03/23/2023  01:29 PM    <DIR>          MOBILE~1.SER Mobile.Renewal.Service_20230323
+05/21/2024  07:25 PM    <DIR>          MOBILE~2.SER Mobile.Renewal.Service_20240521
+05/28/2024  02:23 PM    <DIR>          MOBILE~4.SER Mobile.Renewal.Service_20240528
+06/23/2022  02:41 PM    <DIR>          MOBILE~1     MobileApplicationLogs
+02/21/2023  02:02 PM    <DIR>                       Packages
+02/14/2025  10:21 PM     1,342,177,280              pagefile.sys
+05/31/2022  12:40 AM    <DIR>                       PerfLogs
+02/14/2025  05:57 PM    <DIR>          PROGRA~1     Program Files
+03/11/2025  06:08 AM    <DIR>          PROGRA~2     Program Files (x86)
+03/11/2025  05:02 PM    <DIR>          PROGRA~3     ProgramData
+02/11/2020  07:39 PM    <DIR>                       Recovery
+04/16/2024  11:57 AM             5,908 SSOPOR~2.BAT ssoportallegacysetup-1.3.0_Live_HQ_v1.3.bat
+03/28/2024  10:38 AM             4,700 SSOPOR~1.BAT ssoportallegacysetup-1.3.0_Live_Outlet_v1.0.bat
+01/09/2022  08:28 PM    <DIR>          SYSTEM~1     System Volume Information
+02/14/2025  04:46 PM    <DIR>                       Temp
+11/22/2024  11:14 AM    <DIR>                       Users
+12/19/2024  10:30 PM    <DIR>                       Windows
+10/15/2024  06:11 PM    <DIR>          WINDOW~1     WindowsAzure
+               5 File(s)  1,342,577,221 bytes
+              28 Dir(s)  91,296,681,984 bytes free
+
+------------------------------ 100 latest errors in System eventlog ------------------------------
+Event[0]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-03-11T17:48:28.146
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[1]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-03-11T00:36:12.450
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[2]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-03-10T19:14:06.480
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[3]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-25T13:02:43.358
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[4]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-24T17:39:40.580
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[5]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T18:03:43.488
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[6]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T17:46:10.744
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[7]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T17:21:01.049
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[8]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T17:18:01.047
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[9]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T17:15:01.034
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[10]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T17:12:52.827
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[11]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T16:53:11.295
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[12]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T15:23:00.743
+  Event ID: 10010
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-33179
+  User Name: ASPIAL\yuwai_hnin
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The server {9BA05972-F6A8-11CF-A442-00A0C90A8F39} did not register with DCOM within the required timeout.
+
+Event[13]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-21T15:02:50.325
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[14]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-20T18:00:28.362
+  Event ID: 10010
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-33179
+  User Name: ASPIAL\yuwai_hnin
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The server {9BA05972-F6A8-11CF-A442-00A0C90A8F39} did not register with DCOM within the required timeout.
+
+Event[15]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-20T17:52:00.422
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[16]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-20T00:23:35.219
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[17]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-19T16:53:43.160
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[18]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-19T12:02:08.751
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[19]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-15T01:57:05.910
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-24409
+  User Name: ASPIAL\admin_cs
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{0B5A2C52-3EB9-470A-96E2-6C6D4570E40F}
+ and APPID 
+{56BE716B-2F76-4DFA-8702-67AE10044F0B}
+ to the user ASPIAL\admin_cs SID (S-1-5-21-448539723-879983540-682003330-24409) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[20]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-15T01:53:27.890
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[21]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-02-14T22:24:20.383
+  Event ID: 7023
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Connected Devices Platform Service service terminated with the following error: 
+Unspecified error
+
+Event[22]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T22:24:10.198
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[23]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T22:24:01.947
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[24]:
+  Log Name: System
+  Source: Microsoft-Windows-Eventlog
+  Date: 2025-02-14T22:23:16.826
+  Event ID: 30
+  Task: Service startup
+  Level: Error
+  Opcode: Info
+  Keyword: Service availability
+  User: S-1-5-19
+  User Name: NT AUTHORITY\LOCAL SERVICE
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The event logging service encountered an error (5) while enabling publisher {0BF2FB94-7B60-4B4D-9766-E82F658DF540} to channel Microsoft-Windows-Kernel-ShimEngine/Operational. This does not affect channel operation, but does affect the ability of the publisher to raise events to the channel. One common reason for this error is that the Provider is using ETW Provider Security and has not granted enable permissions to the Event Log service identity.
+
+Event[25]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T22:18:22.754
+  Event ID: 10029
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The activation of the CLSID {752073A1-23F2-4396-85F0-8FDB879ED0ED} timed out waiting for the service TrustedInstaller to stop.
+
+Event[26]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-02-14T22:12:32.932
+  Event ID: 7043
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Update Orchestrator Service for Windows Update service did not shut down properly after receiving a preshutdown control.
+
+Event[27]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T21:19:28.752
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[28]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T21:03:31.076
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[29]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T19:49:15.021
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[30]:
+  Log Name: System
+  Source: Microsoft-Windows-GroupPolicy
+  Date: 2025-02-14T19:49:14.628
+  Event ID: 1058
+  Task: N/A
+  Level: Error
+  Opcode: Start
+  Keyword: N/A
+  User: S-1-5-21-448539723-879983540-682003330-3450
+  User Name: ASPIAL\dbadmin
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The processing of Group Policy failed. Windows attempted to read the file \\ASPIAL.COM\SysVol\ASPIAL.COM\Policies\{56372A39-0C0C-4288-A0CF-EE56EAC2F755}\gpt.ini from a domain controller and was not successful. Group Policy settings may not be applied until this event is resolved. This issue may be transient and could be caused by one or more of the following: 
+a) Name Resolution/Network Connectivity to the current domain controller. 
+b) File Replication Service Latency (a file created on another domain controller has not replicated to the current domain controller). 
+c) The Distributed File System (DFS) client has been disabled.
+
+Event[31]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T18:17:01.234
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[32]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T17:56:26.993
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[33]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T16:39:28.841
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[34]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-14T14:32:19.938
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[35]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T23:35:22.745
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[36]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:22:41.041
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-18
+  User Name: NT AUTHORITY\SYSTEM
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}
+ and APPID 
+{F72671A9-012C-4725-9D2F-2A4D32D65169}
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[37]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:21:00.625
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[38]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:18:00.598
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[39]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:15:00.692
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[40]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:12:00.576
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[41]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:09:00.566
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[42]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:06:00.552
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[43]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:03:00.536
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[44]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T18:00:00.517
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[45]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:57:00.502
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[46]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:54:00.486
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[47]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:51:00.467
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[48]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:48:00.454
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[49]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:45:00.435
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[50]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:42:00.432
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[51]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:39:00.542
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[52]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:36:00.405
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[53]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:33:00.404
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[54]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:30:00.398
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[55]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:27:00.384
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[56]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:24:00.368
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[57]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:21:00.361
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[58]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:18:00.348
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[59]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:15:00.358
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[60]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:12:00.340
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[61]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:09:00.327
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[62]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:06:00.325
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[63]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:03:00.424
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[64]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T17:00:00.296
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[65]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:57:00.284
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[66]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:54:00.268
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[67]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:51:00.254
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[68]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:48:00.249
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[69]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:45:00.233
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[70]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:42:00.222
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[71]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:39:00.212
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[72]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:36:00.194
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[73]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:33:00.175
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[74]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:30:00.187
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[75]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:27:00.274
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[76]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:24:00.153
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[77]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:21:00.143
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[78]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:18:00.131
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[79]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:15:00.120
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[80]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:12:00.122
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[81]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:09:00.097
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[82]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:06:01.084
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[83]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:03:01.073
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[84]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T16:00:01.064
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[85]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:57:01.048
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[86]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:54:01.037
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[87]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:51:01.163
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[88]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:48:01.029
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[89]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:45:01.027
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[90]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:42:01.002
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[91]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:39:00.991
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[92]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:36:00.983
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[93]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:33:00.974
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[94]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:30:00.964
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[95]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:27:00.973
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[96]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:24:00.958
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[97]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:21:00.928
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[98]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:18:00.927
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+Event[99]:
+  Log Name: System
+  Source: Microsoft-Windows-DistributedCOM
+  Date: 2025-02-12T15:15:00.941
+  Event ID: 10016
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: S-1-5-21-448539723-879983540-682003330-6613
+  User Name: ASPIAL\cit_app
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{D63B10C5-BB46-4990-A94F-E40B9D520160}
+ and APPID 
+{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+ to the user ASPIAL\cit_app SID (S-1-5-21-448539723-879983540-682003330-6613) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+
+
+--------------------------- 100 latest errors in Application eventlog ----------------------------
+Event[0]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-11T08:07:38.559
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[1]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-11T07:03:07.223
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[2]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-11T00:22:36.109
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[3]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-10T21:24:51.117
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[4]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-10T11:22:36.126
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[5]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-10T06:56:52.050
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[6]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-10T01:21:38.705
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[7]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-10T00:24:49.713
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[8]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-09T14:10:38.227
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[9]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-09T06:50:36.558
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[10]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-09T03:24:48.390
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[11]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-09T01:24:48.253
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[12]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-08T17:22:36.100
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[13]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-08T06:44:23.704
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[14]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-08T06:24:47.004
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[15]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-08T01:22:36.114
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[16]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-07T20:08:38.600
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[17]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-07T09:24:45.628
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[18]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-07T06:38:11.267
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[19]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-07T02:22:36.111
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[20]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-06T23:15:38.176
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[21]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-06T12:23:38.349
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[22]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-06T06:31:56.104
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[23]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-06T04:13:38.157
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[24]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-06T02:19:40.137
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[25]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-05T15:24:42.872
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[26]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-05T06:25:42.621
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[27]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-05T05:16:38.664
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[28]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-05T03:20:38.643
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[29]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-04T18:24:41.507
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[30]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-04T08:17:40.376
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[31]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-04T06:19:27.988
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[32]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-04T04:24:40.575
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[33]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-03T21:24:40.132
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[34]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-03T10:54:39.165
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[35]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-03T06:13:15.849
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[36]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-03T03:12:38.532
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[37]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-03T00:24:38.775
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[38]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-02T13:53:38.637
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[39]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-02T06:07:01.627
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[40]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-02T04:24:37.459
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[41]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-02T03:24:37.394
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[42]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-01T16:56:38.189
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[43]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-01T06:24:36.057
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[44]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-03-01T06:12:38.734
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[45]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-03-01T06:00:47.573
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[46]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-28T20:13:38.665
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[47]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-28T09:24:34.667
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[48]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-28T07:14:38.183
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[49]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-28T05:54:34.059
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[50]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-27T23:16:38.266
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[51]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-27T12:24:33.274
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[52]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-27T08:11:38.819
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[53]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-27T05:48:20.191
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[54]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-27T01:58:38.419
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[55]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-26T15:24:31.899
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[56]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-26T06:18:38.546
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[57]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-26T05:42:05.183
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[58]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-26T05:12:38.974
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[59]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-25T18:24:30.554
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[60]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-25T08:18:38.469
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[61]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-25T05:35:50.874
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[62]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-25T05:24:29.709
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[63]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-24T21:24:29.185
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[64]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-24T10:58:38.405
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[65]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-24T05:29:36.408
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[66]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-24T04:20:38.990
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[67]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-24T00:24:27.811
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[68]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-23T14:08:38.919
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[69]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-23T05:23:23.735
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[70]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-23T03:24:26.449
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[71]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-23T02:24:26.393
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[72]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-22T17:22:36.100
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[73]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-22T06:24:25.106
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[74]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-22T05:17:10.242
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[75]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-22T04:24:24.917
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[76]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-21T20:22:36.096
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[77]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-21T09:24:23.706
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[78]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-21T05:10:56.827
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[79]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-21T04:09:38.414
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[80]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-20T23:22:36.101
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[81]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-20T12:24:22.318
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[82]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-20T05:13:38.356
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[83]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-20T05:04:44.182
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[84]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-20T02:12:38.689
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[85]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-19T15:24:20.961
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[86]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-19T05:18:38.161
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[87]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-19T04:58:29.559
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[88]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-19T03:24:20.170
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[89]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-18T18:24:19.583
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[90]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-18T08:16:38.655
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[91]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-18T04:52:17.364
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[92]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-18T02:24:18.550
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[93]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-17T21:24:18.233
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[94]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-17T11:22:36.176
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[95]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-17T04:46:03.129
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+Event[96]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-17T01:08:38.504
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[97]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-17T00:24:16.847
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[98]:
+  Log Name: Application
+  Source: Microsoft-Windows-COMRuntime
+  Date: 2025-02-16T14:18:38.960
+  Event ID: 10031
+  Task: N/A
+  Level: Error
+  Opcode: Info
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+An unmarshaling policy check was performed when unmarshaling a custom marshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected
+
+Event[99]:
+  Log Name: Application
+  Source: Microsoft-Windows-Perflib
+  Date: 2025-02-16T04:39:49.145
+  Event ID: 1008
+  Task: N/A
+  Level: Error
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: ASP-OP-UMASTERAPP.ASPIAL.com
+  Description: 
+The Open Procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code.
+
+
+--------------------------------------- Actual shadows details -----------------------------------
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2013 Microsoft Corp.
+
+No items found that satisfy the query.
+
+--------------------------------------------------------------------------------------------------
+Script execution finished at Tue 03/11/2025 17:49:35.50 
+--------------------------------------------------------------------------------------------------
